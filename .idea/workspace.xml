@@ -10,7 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="307c989a-0cd4-43fc-9841-318dc9276cb2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaspb/spring/mvc/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaspb/spring/mvc/validation/CheckEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaspb/spring/mvc/validation/CheckEmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaspb/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaspb/spring/mvc/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first-view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,30 +52,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "spring",
-    "spring.configuration.checksum": "90166a0d1f404f148ff8fb7a3a758ac6"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;90166a0d1f404f148ff8fb7a3a758ac6&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Constantine\IdeaProjects\Spring_MVC\src\main\webapp\WEB-INF\view" />
+      <recent name="C:\Users\Constantine\IdeaProjects\Spring_MVC\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Tomcat_Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.23" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.23" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Spring_MVC:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/spring_mvs" />
+            <option name="CONTEXT_PATH" value="/Spring_MVC_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="d7f09b27-81cd-4ceb-8228-34c8e504da04" />
+        <option name="BASE_DIRECTORY_NAME" value="ad59404c-e5e3-4d56-b189-10dc56f1d984" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -75,7 +89,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51801" />
+        <option name="DEBUG_PORT" value="53049" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -157,7 +171,8 @@
       <option name="presentableId" value="Default" />
       <updated>1663348793464</updated>
       <workItem from="1663348795186" duration="2196000" />
-      <workItem from="1663405361237" duration="7051000" />
+      <workItem from="1663405361237" duration="8819000" />
+      <workItem from="1663423263273" duration="16986000" />
     </task>
     <task id="LOCAL-00001" summary="Test MVC">
       <created>1663420156573</created>
@@ -180,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663420580039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test MVC">
+      <created>1663420988239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663420988239</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
